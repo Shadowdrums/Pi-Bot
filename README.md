@@ -56,7 +56,7 @@ A general-purpose assistant module, `pi_assistant` offers a range of utilities a
 
 ## 🌟 Conclusion
 
-The Pi-Bot, masterfully crafted by **Shadowdrums**, is an embodiment of the versatility and power that the Raspberry Pi 4 platform offers. Designed and developed on a Raspberry Pi 4 using Kali Linux, this bot encompasses a wide spectrum of functionalities:
+The Pi-Bot, crafted by **Shadowdrums**, is an embodiment of the versatility and power that the Raspberry Pi 4 platform offers. Designed and developed on a Raspberry Pi 4 using Kali Linux, this bot encompasses a wide spectrum of functionalities:
 
 - **Sentiment Analysis:** Understand and respond to user inputs based on their sentiment using the power of TextBlob.
   
