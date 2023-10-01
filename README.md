@@ -1,5 +1,6 @@
 # Pi-Bot
-This is a chattbot/assistant still in development for raspberry pi 4
+
+This is a chatbot/assistant still in development for Raspberry Pi 4.
 
 # 🤖 Pi-Bot for Raspberry Pi 4
 
@@ -33,17 +34,25 @@ pip install textblob psutil scapy speedtest-cli netifaces
 
 chmod +x pi_learning.py network_assist.py forensics_mode.py
 
-
 ## 📚 Modules
 
-### 1. **`pi_learning.py`**: 
+### 1. **`pi-chat` (Main Script)**:
+The primary interaction point for users, `pi-chat` acts as the central hub binding the capabilities of all other modules, providing an intuitive and interactive experience.
+
+### 2. **`pi_learning.py`**: 
 This module uses sentiment analysis from the `textblob` library to analyze the sentiment of a given text. It can recognize and respond to greetings, farewells, weather queries, news-related queries, technical issues, and more. Moreover, it learns from user corrections and stores them for future interactions.
 
-### 2. **`network_assist.py`**: 
+### 3. **`network_assist.py`**: 
 A utility tool that assists in network-related tasks such as mapping the network topology, packet sniffing, scanning available Wi-Fi networks, checking SSH status, and more. Leveraging the power of `scapy`, `psutil`, and other libraries, this module is vital for those who want to analyze their network.
 
-### 3. **`forensics_mode.py`**: 
+### 4. **`forensics_mode.py`**: 
 This module provides basic digital forensics capabilities. It can recover potentially deleted files, analyze file metadata, and scan for specific file signatures in a given directory.
+
+### 5. **`pi_calc`**:
+This module serves as a handy calculator tool for various mathematical operations. Be it simple arithmetic or more complex computations, `pi_calc` facilitates on-the-go calculations.
+
+### 6. **`pi_assistant`**:
+A general-purpose assistant module, `pi_assistant` offers a range of utilities and functionalities to aid users in day-to-day tasks. From setting reminders and alarms to searching the web and more, `pi_assistant` stands as a multifaceted helper for Pi-Bot users.
 
 ## 🌟 Conclusion
 
@@ -66,4 +75,3 @@ Dive in, explore, and perhaps even contribute as Pi-Bot continues to evolve and 
 ---
 
 **Stay Curious and Happy Exploring!** 🚀
-
